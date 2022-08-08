@@ -3,15 +3,15 @@ body {
     color:#757575;
     background-color: #fff;
 }
-.nav-list .link {
-    color:#212121;
+.link {
+    color:#757575;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
 }
-.link {
-    color:#757575;
+.nav-list .link {
+    color: #212121;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -22,14 +22,6 @@ body {
 .link:hover,
 .link:focus {
     color:#2196f3;
-}
-.hiro-button {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.88 ;
-    color:#fff;
-    background-color: #2196f3;
-    border: 0px;
 }
 .list-item {
     list-style: none;
@@ -65,6 +57,15 @@ body {
     font-weight: 900;
     line-height:1.36 ;
     text-align: center;
+}
+.hiro-button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.88;
+    color: #fff;
+    background-color: #2196f3;
+    border: 0px;
 }
 .caption {
     color:#212121;
