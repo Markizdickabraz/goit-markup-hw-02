@@ -4,6 +4,8 @@
     --title-color: #212121;
     --accent-color: #2196f3;
     --footer-bgc-color: #2f303a;
+    --hiro-button-hover:#188CE8;
+    --light-grey-color:#f5f4fa;
 }
 body {
     font-family:Roboto, Raleway ,sans-serif;
@@ -44,7 +46,7 @@ body {
 .button {
     cursor: pointer;
     color:var(--title-color);
-    background-color: #f5f4fa;
+    background-color: var(--light-grey-color);
     border: 0px;
     font-family: Roboto, sens-serif;
     font-size: 16px;
@@ -97,10 +99,10 @@ body {
 }
 .hiro-button:hover,
 .hiro-button:focus {
-    background-color: #188CE8;
+    background-color: var(--hiro-button-hover);
 }
 .team {
-    background-color: #f5f4fa;
+    background-color: var(--light-grey-color);
 }
 .caption {
     color:var(--title-color);
